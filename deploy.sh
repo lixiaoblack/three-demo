@@ -3,7 +3,7 @@
  # @Author: wanglx
  # @Date: 2025-04-02 18:37:19
  # @LastEditors: wanglx
- # @LastEditTime: 2025-04-02 18:39:54
+ # @LastEditTime: 2025-04-02 18:44:59
  # @Description: 自动部署脚本
  # 
  # Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
@@ -13,7 +13,7 @@
 set -e
 
 # 构建
-pnpm build
+pnpm build-only
 
 # 进入构建输出目录
 cd dist
