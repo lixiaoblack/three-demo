@@ -6,6 +6,8 @@
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "allowJs": true, // 允许导入 .js 文件
+    "checkJs": true, // 检查 .js 文件
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -15,7 +17,6 @@
     "emitDeclarationOnly": true,
 
     /* Linting */
-    "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,

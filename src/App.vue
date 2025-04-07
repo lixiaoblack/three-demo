@@ -2,7 +2,7 @@
  * @Author: wanglx
  * @Date: 2025-03-13 20:40:21
  * @LastEditors: wanglx
- * @LastEditTime: 2025-04-02 15:59:22
+ * @LastEditTime: 2025-04-07 13:33:46
  * @Description: 
  * 
  * Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
@@ -60,6 +60,7 @@ import InteractionDemo from "./components/InteractionDemo.vue";
 import PostProcessingDemo from "./components/PostProcessingDemo.vue";
 import MapboxThreeDemo from "./components/MapboxThreeDemo.vue";
 import MapParticleDemo from "./components/MapParticleDemo.vue";
+import MachineRoom from "./components/MachineRoom/MachineRoom.vue";
 
 // 定义路由配置
 const routes = [
@@ -145,6 +146,14 @@ const routes = [
     component: MapParticleDemo,
     meta: {
       title: "地图特效演示",
+    },
+  },
+  {
+    path: "/machine-room",
+    name: "虚拟机房",
+    component: MachineRoom,
+    meta: {
+      title: "虚拟机房",
     },
   },
 ];
